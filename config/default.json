@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://roneetkumar:nLHXu3PKShyfOBYK@looper-qb8yl.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "holdthedoor"
+}
