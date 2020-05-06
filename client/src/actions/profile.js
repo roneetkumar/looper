@@ -9,7 +9,6 @@ export const getCurrentProfile = () => async dispatch => {
     try {
         const res = await axios.get('/api/profile/me');
 
-
         dispatch({
             type: GET_PROFILE,
             payload: res.data
@@ -60,7 +59,7 @@ export const getProfileById = userId => async dispatch => {
 
         dispatch({
             type: GET_PROFILE,
-            payload: res.data
+            payload: res.data[0]
         });
 
     } catch (error) {
