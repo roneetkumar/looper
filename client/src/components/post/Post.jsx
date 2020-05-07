@@ -5,7 +5,7 @@ import { getPost } from "../../actions/post";
 import { connect } from "react-redux";
 import Spinner from "../layout/Spinner";
 import PostItem from "../posts/PostItem";
-import CommentItem from "./CommentItem.js";
+import CommentItem from "./CommentItem.jsx";
 import CommentForm from "./CommentForm";
 
 const Post = ({ getPost, post: { post, loading }, match }) => {
