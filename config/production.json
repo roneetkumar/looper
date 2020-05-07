@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://roneetkumar:nLHXu3PKShyfOBYK@looper-qb8yl.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "holdthedoor",
+    "githubClientID": "3c7b1771789f323379f3",
+    "githubSecret": "567a91e603f27eb5f7242cd5c2bc741a47aa3092"
+}
