@@ -11,7 +11,7 @@ const Landing = ({ isAuthenticated }) => {
 
     return (
         <section className="landing">
-            <div className="dark-overlay">
+            <div className="overlay">
                 <div className="landing-inner">
                     <h1 className="x-large">Looper</h1>
                     <p className="lead">
@@ -19,7 +19,7 @@ const Landing = ({ isAuthenticated }) => {
                         other developers
                 </p>
                     <div className="buttons">
-                        <Link to="/register" className="btn btn-primary">Sign Up</Link>
+                        <Link to="/register" className="btn btn-secondary" style={{ color: "#fff" }}>Sign Up</Link>
                         <Link to="/login" className="btn btn-light">Login</Link>
                     </div>
                 </div>

@@ -15,8 +15,9 @@ const ProfileItem = ({ profile: { user: { _id, name, avatar }, status, company, 
                 <div>
                     <h2>{name}</h2>
                     <p>{status} {company && <span> at {company}</span>}</p>
+
                     <p>{location && <span>{location}</span>}</p>
-                    <Link to={`/profile/${_id}`} className="btn btn-primary">View Profile</Link>
+                    <Link to={`/profile/${_id}`} style={{ marginTop: '10px', color: '#fff' }} className="btn btn-secondary">View Profile</Link>
                 </div>
 
                 <ul>

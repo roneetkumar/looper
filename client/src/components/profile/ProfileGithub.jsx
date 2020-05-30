@@ -12,7 +12,7 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
 
     return (
         <div className="profile-github">
-            <h2 className="text-primary my-1">
+            <h2 className="text-primary my-1" style={{ color: "#fff" }}>
                 <i className="fab fa-github"></i> Github Repos
             </h2>
 
@@ -40,7 +40,7 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
             }
 
 
-        </div>
+        </div >
     );
 };
 
